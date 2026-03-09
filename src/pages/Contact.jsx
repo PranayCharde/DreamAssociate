@@ -61,7 +61,7 @@ export function ContactPage() {
                    </div>
                    <div>
                      <h4 className="font-bold text-slate-900">Email Address</h4>
-                     <p className="text-gray-600">info@Patil.com</p>
+                     <p className="text-gray-600">info@Dream  Associate.com</p>
                    </div>
                 </div>
                  

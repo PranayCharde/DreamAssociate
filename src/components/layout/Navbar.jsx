@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingBag, Search, Menu, X, Shield, Phone, MapPin, Clock } from 'lucide-react';
+import { ShoppingBag, Search, Menu, X, Phone, MapPin, Clock } from 'lucide-react';
 import { cn } from '../../lib/utils';
 
 export function Navbar() {
@@ -46,8 +46,7 @@ export function Navbar() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <Shield className="w-8 h-8 text-primary" />
-            <span className={`text-2xl font-bold transition-colors ${isScrolled ? 'text-slate-900' : 'text-white'}`}>Patil</span>
+            <span className={`text-2xl font-bold transition-colors ${isScrolled ? 'text-slate-900' : 'text-white'}`}>Dream  Associate</span>
           </Link>
 
           {/* Desktop Navigation */}

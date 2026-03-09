@@ -16,13 +16,13 @@ export function VideoIntro() {
       </div>
 
       <div className="relative z-10 text-center">
-        <motion.button
+        {/* <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           className="w-24 h-24 bg-white rounded-full flex items-center justify-center cursor-pointer shadow-lg group transition-all duration-300"
         >
            <Play className="w-8 h-8 text-primary ml-1 fill-current group-hover:text-primary-dark" />
-        </motion.button>
+        </motion.button> */}
         <h2 className="text-3xl md:text-5xl font-bold text-white mt-8 tracking-wide">
           View our <span className="text-primary-light">Promo Video</span>
         </h2>

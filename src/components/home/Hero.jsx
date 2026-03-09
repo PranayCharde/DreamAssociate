@@ -77,9 +77,28 @@ export function Hero() {
         {/* Right Side Content (Optional - simplified for slider version to avoid visual clutter) */}
         {/* We can hide the static images since we have a full background now, or maybe show a floating card? 
             Let's keep it clean as per standard hero slider designs. */}
-        <div className="flex-1 hidden md:block">
-           {/* Leaving empty to let background shine, or could put a glassmorphism card here later */}
-        </div>
+        <motion.div 
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="flex-1 hidden md:block"
+        >
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 p-8 rounded-2xl shadow-2xl">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                <CheckCircle className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <h4 className="font-bold text-white uppercase text-xs tracking-widest">Industry Leader</h4>
+                <p className="text-white/80 text-sm">Certified Global Partner</p>
+              </div>
+            </div>
+            <p className="text-white/90 italic mb-6">
+              "Dream Associate transformed our operational efficiency by 40%. Their strategic approach is second to none."
+            </p>
+            <div className="text-sm font-bold text-primary">CEO, Tech Solutions Global</div>
+          </div>
+        </motion.div>
       </div>
       
       {/* Slider Indicators */}

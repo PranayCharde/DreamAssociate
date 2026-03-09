@@ -5,9 +5,9 @@ export function AboutValues() {
     <section className="py-20 bg-slate-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
-          Creating long-term value with <br />
-          entrepreneurial intelligence! Our main <br />
-          goal is <span className="underline decoration-primary decoration-4 underline-offset-4">ad.</span>
+          Driving innovation through <br />
+          collaborative <span className="text-primary">intelligence!</span> Our core <br />
+          focus is <span className="underline decoration-primary decoration-4 underline-offset-4">excellence.</span>
         </h2>
         <p className="text-gray-500 font-medium">
           Piter Bowman <br />

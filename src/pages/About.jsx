@@ -41,7 +41,7 @@ export function AboutPage() {
                  <span className="text-primary">what we do</span>
                </h2>
                <p className="text-gray-600 text-lg">
-                 Founded in 2010, Patil Associate has grown from a small consulting firm to a global leader in business solutions. We believe in the power of data, strategy, and people to transform organizations.
+                 Founded in 2010, Dream Associate has grown from a small consulting firm to a global leader in business solutions. We believe in the power of data, strategy, and people to transform organizations.
                </p>
                <p className="text-gray-600">
                  Our mission is to empower businesses to achieve effective and sustainable growth. We work closely with our clients to understand their unique challenges and deliver tailored solutions that drive results.

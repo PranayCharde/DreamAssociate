@@ -3,7 +3,7 @@ import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    text: "Patil Associate transformed our business strategy. Their expertise in financial planning and operational efficiency helped us double our revenue in just one year.",
+    text: "Dream Associate transformed our business strategy. Their expertise in financial planning and operational efficiency helped us double our revenue in just one year.",
     author: "James Wilson",
     role: "CEO, TechFlow Inc.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150"
@@ -15,7 +15,7 @@ const testimonials = [
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
   },
   {
-    text: "Professional, insightful, and results-driven. Working with Patil Associate was one of the best decisions we made for our company's future.",
+    text: "Professional, insightful, and results-driven. Working with Dream Associate was one of the best decisions we made for our company's future.",
     author: "Robert Chen",
     role: "Founder, Innovation Labs",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"

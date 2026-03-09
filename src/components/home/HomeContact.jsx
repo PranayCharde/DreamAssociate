@@ -41,7 +41,7 @@ export function HomeContact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg">Send Email</h4>
-                    <p className="text-gray-400">info@patil.com</p>
+                    <p className="text-gray-400">info@Dream  Associate.com</p>
                   </div>
                 </div>
 

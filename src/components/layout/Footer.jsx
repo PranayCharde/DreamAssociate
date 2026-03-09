@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -9,7 +9,7 @@ export function Footer() {
           
           {/* Company Info */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-white">Patil Associate</h3>
+            <h3 className="text-2xl font-bold text-white">Dream Associate</h3>
             <p className="text-gray-400 leading-relaxed">
               We provide comprehensive business solutions to help you grow and succeed in today's competitive market.
             </p>
@@ -40,7 +40,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-5 h-5 text-primary" />
-                <span>info@Patil.com</span>
+                <span>info@Dream  Associate.com</span>
               </li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
-          <p>© 2024 Patil Associate. All rights reserved.</p>
+          <p>© 2024 Dream Associate. All rights reserved.</p>
         </div>
       </div>
     </footer>
